@@ -1,0 +1,67 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    border: 1px solid #CCCCCC;
+    border-radius: 1em;
+    padding: 2em;
+    transition: 0.2s ease-in-out;
+    align-items: baseline;
+}
+
+.article:hover {
+    border: 1px solid #00408D;
+    box-shadow: 0 3px 10px rgba(141, 141, 141, 0.2);
+    transform: translateY(-1%);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    color: #555;
+}
+
+.cardInfo span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.description {
+    margin: 0;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #00408D;
+    color: #00408D;
+    border-radius: 9999px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #00408D;
+    color: #fff;
+}

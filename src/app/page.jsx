@@ -18,11 +18,11 @@ export default async function Page() {
          <main className={styles.main}>
             <h1 style={{textAlign: "center"}}>Overzicht documenten</h1>
 
-            <ul>
+            <div className={styles.cards}>
                 {documents.map((doc) => (
                     <DocumentCard key={doc.id} document={doc} />
                 ))}
-            </ul>
+            </div>
         </main>
 
     )

@@ -192,23 +192,6 @@ p {
   max-width: var(--p-s-max-width);
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  gap: 1em;
-  padding: 0;
-  margin: auto;
-  width: 100%;
-
-  @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(22em, 1fr));
-    max-width: 1400px;
-  }
-}
-
-
 /* Buttons */
 .button-outline-white {
   background: var(--button-blue-bg);

@@ -6,6 +6,7 @@ Dit project is een experiment met React en Next.js en haalt data op uit een Dire
 - UX van deze stack is over het algemeen goed voor standaard desktop en mobiele gebruikers
 - Accessibility voldoet goed aan toegankelijkheid
 - Techstack genereert pagina’s die snel laden
+
 Uitgewerkt in [Gist](https://gist.github.com/ambersr/143054372ab63639729c20cfb3d19175)
 
 ### Developer Experience

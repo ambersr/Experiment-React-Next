@@ -1,6 +1,10 @@
 import DocumentCard from "@/components/document/DocumentCard";
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: 'Home | Experiment React/Next',
+}
+
 export default async function Page() {
     const baseUrl = "https://fdnd-agency.directus.app/items/";
     const documentsEndpoint = "adconnect_documents";

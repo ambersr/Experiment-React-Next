@@ -1,5 +1,9 @@
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: 'Document | Experiment React/Next',
+}
+
 export default async function Page({ params }) {
     const { slug } = await params;
     

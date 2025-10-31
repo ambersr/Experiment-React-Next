@@ -1,7 +1,7 @@
 // src/app/layout.jsx
 import "@/styles/globals.css";
-import Nav from "@/Components/header/Nav";
-import Footer from "@/Components/footer/Footer";
+import Nav from "@/components/header/Nav";
+import Footer from "@/components/footer/Footer";
 
 export default function RootLayout({ children }) {
   return (

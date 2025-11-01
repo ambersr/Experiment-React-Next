@@ -23,3 +23,7 @@ Uitgewerkt in [Gist](https://gist.github.com/ambersr/a4fd4b765121c968d36849b9f20
 - Overzichtelijk CMS makkelijk content toevoegen en aanpassen
 
 Uitgewerkt in [Gist](https://gist.github.com/ambersr/3f1ea10ee8bf65553fae46b304ad2c22)
+
+## Conclusie gebruik techstack
+
+React met Next.js is geschikt voor dynamische, interactieve websites met veel functionaliteit. Developers profiteren van herbruikbare componenten, server side rendering en een flexibele structuur. Contentbeheerders kunnen content eenvoudig beheren via een headless CMS. Deze stack is ideaal voor projecten waar dynamische data en interactiviteit belangrijk zijn, maar minder geschikt voor volledig statische sites die maximale laadsnelheid en minimale build-complexiteit vereisen.

@@ -1,6 +1,6 @@
 ## Experiment React/Next.js
 
-Dit project is een experiment met React en Next.js en haalt data op uit een Directus API. Het doel is om een simpele, moderne website te bouwen die content dynamisch kan ophalen en weergeven en te onderzoeken hoe de user, developer en content management experience is.
+Dit project is een experiment met React en Next.JS en haalt data op uit een Directus API. Het doel is om een simpele, moderne website te bouwen die content dynamisch kan ophalen en weergeven en te onderzoeken hoe de user, developer en content management experience is.
 
 ### User Experience
 - UX van deze stack is over het algemeen goed voor standaard desktop, telefoon en ipad.
